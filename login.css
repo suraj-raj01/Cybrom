@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: deepskyblue;
+    background-repeat: no-repeat;
+    background-position: center;background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login{
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.input{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input p{
+    padding: 0px 0px 0px 110px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+.input p:active{
+    color: orangered;
+}
+
+.input input{
+    height: 35px;
+    width: 240px;
+    font-weight: bolder;
+    padding: 0px 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-top-color:transparent ;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+}
+
+input:focus{
+    outline: none;
+   
+}
+
+.icon{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icon img{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+}
+
+.icon img:hover{
+    transition: 0.8s;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 1px orangered;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+}
+
+button{
+    padding: 10px 100px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: orangered;
+    color: white;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: deepskyblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    height: 500px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.box1 h1{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+.box1 input{
+    margin-top: 25px;
+    margin-left: 25%;
+    height: 30px;
+    width: 190px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-bottom-color: black;
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+}
+
+.box1 ::placeholder{
+    color: black;
+    font-size: 15px;
+}
+
+/* Remove outline on focus */
+.box1 input:focus{
+    outline: none;
+}
+
+.box1 button{
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 22%;
+    text-align: center;
+    background-color: green;
+}
+
+.box1 button:hover{
+    transition: 0.6s;
+    border: 1px solid orangered;
+    background-color: orangered;
+}
+
